@@ -1111,33 +1111,6 @@
     },
     {
       "type": "Feature",
-      "id": 42,
-      "properties": {
-        "name": "Cherry Hill OB/GYN - Turnersville",
-        "rating": 4.9,
-        "reviews": 494,
-        "address": "Pavilions, 188 Fries Mill Rd STE B1",
-        "city": "Philadelphia",
-        "entity": "practice",
-        "website": "axiawh.com",
-        "trust_tier": "high",
-        "specialty": "OBGYN",
-        "organization": "Axia Women's Health",
-        "geocoded_query": "Pavilions, 188 Fries Mill Rd STE B1, Philadelphia",
-        "geocoded_place_name": "188 Fries Mill Road, Washington Township, New Jersey 08012, United States",
-        "maptiler_feature_id": "address.25079112",
-        "geocoding_relevance": 0.816667
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.046944,
-          39.736401
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": 43,
       "properties": {
         "name": "Lifecycle Wellness and Birth Center",
@@ -1160,33 +1133,6 @@
         "coordinates": [
           -75.16573199999999,
           39.927504
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 44,
-      "properties": {
-        "name": "Obstetrics & Gynecology Associates - Sewell",
-        "rating": 4.6,
-        "reviews": 614,
-        "address": "247 Hurffville - Cross Keys Rd Suite 1-C",
-        "city": "Philadelphia",
-        "entity": "practice",
-        "website": "axiawh.com",
-        "trust_tier": "high",
-        "specialty": "OBGYN",
-        "organization": "Axia Women's Health",
-        "geocoded_query": "247 Hurffville - Cross Keys Rd Suite 1-C, Philadelphia",
-        "geocoded_place_name": "County Road 654, Washington Township, New Jersey 08080, United States",
-        "maptiler_feature_id": "address.24364401",
-        "geocoding_relevance": 0.817593
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.07099226117134,
-          39.73707632829802
         ]
       }
     },
