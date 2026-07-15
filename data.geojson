@@ -1,0 +1,2247 @@
+{
+  "type": "FeatureCollection",
+  "name": "maptiler-data",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "name": "Christine Wu, MD",
+        "rating": 4.9,
+        "reviews": 608,
+        "address": "833 Chestnut St",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "833 Chestnut St, Philadelphia",
+        "geocoded_place_name": "833 Chestnut Street, Philadelphia, Pennsylvania 19107, United States",
+        "maptiler_feature_id": "address.21377012",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15493200000003,
+          39.950229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "name": "Philadelphia Women's Health & Wellness",
+        "rating": 4.9,
+        "reviews": 992,
+        "address": "3300 Henry Ave Suite 101",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "phillywomens.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Philly Women's Health",
+        "geocoded_query": "3300 Henry Ave Suite 101, Philadelphia",
+        "geocoded_place_name": "3300 Henry Avenue, Philadelphia, Pennsylvania 19129-1141, United States",
+        "maptiler_feature_id": "address.22350370",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.18380400000001,
+          40.012575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "name": "Penn Ob/Gyn Associates",
+        "rating": 2.8,
+        "reviews": 67,
+        "address": "3701 Market St Suite 371",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "3701 Market St Suite 371, Philadelphia",
+        "geocoded_place_name": "3701 Market Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.25321197",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19604900000002,
+          39.956849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "name": "Gynecology Specialists of Philadelphia",
+        "rating": 4.5,
+        "reviews": 240,
+        "address": "823 S 9th St 1st floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "philadelphiagyn.com",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Philadelphia Gyn",
+        "geocoded_query": "823 S 9th St 1st floor, Philadelphia",
+        "geocoded_place_name": "823 South 9th Street, Philadelphia, Pennsylvania 19147, United States",
+        "maptiler_feature_id": "address.21877818",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15761700000002,
+          39.939173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "name": "Philadelphia Women's Center",
+        "rating": 3.7,
+        "reviews": 112,
+        "address": "777 Appletree St 7th floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "thewomenscenters.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Philadelphia Women's Center",
+        "geocoded_query": "777 Appletree St 7th floor, Philadelphia",
+        "geocoded_place_name": "Appletree Street, Philadelphia, Pennsylvania 19103, United States",
+        "maptiler_feature_id": "address.21344409",
+        "geocoding_relevance": 0.703704
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1744594797492,
+          39.95635349924223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "name": "Penn Ob/Gyn Washington Square - 15th Floor",
+        "rating": 2.8,
+        "reviews": 11,
+        "address": "800 Walnut St 15th Floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "800 Walnut St 15th Floor, Philadelphia",
+        "geocoded_place_name": "800 Walnut Street, Philadelphia, Pennsylvania 19106, United States",
+        "maptiler_feature_id": "address.27268656",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15343999999999,
+          39.94783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "name": "Penn Ob/Gyn and Midwifery Washington Square",
+        "rating": 2.7,
+        "reviews": 79,
+        "address": "800 Walnut St 14th floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "800 Walnut St 14th floor, Philadelphia",
+        "geocoded_place_name": "800 Walnut Street, Philadelphia, Pennsylvania 19106, United States",
+        "maptiler_feature_id": "address.27268656",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15343999999999,
+          39.94783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "name": "Sonya Lee, MD, FACOG",
+        "rating": 4.6,
+        "reviews": 253,
+        "address": "51 N 39th St",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "philadelphiagyn.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Philadelphia Gyn",
+        "geocoded_query": "51 N 39th St, Philadelphia",
+        "geocoded_place_name": "51 North 39th Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.27672027",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19921399999998,
+          39.958512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "name": "Gynecology Specialists of Philadelphia",
+        "rating": 4.7,
+        "reviews": 394,
+        "address": "51 N 39th St Building 201",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "philadelphiagyn.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Philadelphia Gyn",
+        "geocoded_query": "51 N 39th St Building 201, Philadelphia",
+        "geocoded_place_name": "51 North 39th Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.27672027",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19921399999998,
+          39.958512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "name": "Penn Ob/Gyn - Helen O. Dickens Center for Women's Health",
+        "rating": 2.5,
+        "reviews": 66,
+        "address": "3400 Spruce Street",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "3400 Spruce Street, Philadelphia",
+        "geocoded_place_name": "3400 Spruce Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.23895566",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.193197,
+          39.949606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "name": "Gearhart Peter A MD",
+        "rating": 4.5,
+        "reviews": 20,
+        "address": "800 Walnut St 14th fl",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "pennmedicine.org",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "800 Walnut St 14th fl, Philadelphia",
+        "geocoded_place_name": "800 Walnut Street, Philadelphia, Pennsylvania 19106, United States",
+        "maptiler_feature_id": "address.27268656",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15343999999999,
+          39.94783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "name": "Richard K. Krauss, MD",
+        "rating": 5.0,
+        "reviews": 10,
+        "address": "Washington Square, 800 Walnut St",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "Washington Square, 800 Walnut St, Philadelphia",
+        "geocoded_place_name": "800 Walnut Street, Philadelphia, Pennsylvania 19106, United States",
+        "maptiler_feature_id": "address.27268656",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15343999999999,
+          39.94783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "name": "Jefferson Women's Primary Care",
+        "rating": 2.8,
+        "reviews": 46,
+        "address": "33 S 9th St Ste 703",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "33 S 9th St Ste 703, Philadelphia",
+        "geocoded_place_name": "33 Chester Pike, Collingdale, Pennsylvania 19023, United States",
+        "maptiler_feature_id": "address.19407263",
+        "geocoding_relevance": 0.816667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.26442099999997,
+          39.917687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "name": "Dr. Marianne Ruby, MD",
+        "rating": 5.0,
+        "reviews": 2,
+        "address": "1015 Chestnut St #601",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "jefferson.edu",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "1015 Chestnut St #601, Philadelphia",
+        "geocoded_place_name": "1015 Chestnut Street, Philadelphia, Pennsylvania 19107, United States",
+        "maptiler_feature_id": "address.21377012",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.157666,
+          39.950396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "name": "Main Line Women's Healthcare - Bryn Mawr",
+        "rating": 4.6,
+        "reviews": 262,
+        "address": "135 S Bryn Mawr Ave Ste 350, Bryn Mawr, PA 19010",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "135 S Bryn Mawr Ave Ste 350, Bryn Mawr, PA 19010, Philadelphia",
+        "geocoded_place_name": "Bryn Mawr Hospital, 130 South Bryn Mawr Avenue, Lower Merion Township, Pennsylvania 19010, United States",
+        "maptiler_feature_id": "poi.59619355",
+        "geocoding_relevance": 0.872222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.32109585290027,
+          40.019337135800676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "name": "Bryn Mawr Women's Health Associates - Newtown Square",
+        "rating": 4.7,
+        "reviews": 273,
+        "address": "3855 West Chester Pike #305, Newtown Square, PA 19073",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "3855 West Chester Pike #305, Newtown Square, PA 19073, Philadelphia",
+        "geocoded_place_name": "West Chester Pike, Newtown Township, Pennsylvania 19073, United States",
+        "maptiler_feature_id": "address.23859775",
+        "geocoding_relevance": 0.83642
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.40888354182243,
+          39.98613722464312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "name": "McConnell & Associates OB/GYN - Wynnewood",
+        "rating": 4.8,
+        "reviews": 275,
+        "address": "100 Lancaster Avenue Medical Office Building East, #158, Penn Wynne, PA 19096",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "100 Lancaster Avenue Medical Office Building East, #158, Penn Wynne, PA 19096, Philadelphia",
+        "geocoded_place_name": "Penn Wynne Park, Wynnewood, Lower Merion Township, United States",
+        "maptiler_feature_id": "poi.54721270",
+        "geocoding_relevance": 0.712222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2699020402207,
+          39.98608202086788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "name": "Philadelphia Pregnancy Center",
+        "rating": 2.6,
+        "reviews": 117,
+        "address": "201 N 9th St",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "philapregnancycenter.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Philadelphia Pregnancy Center",
+        "geocoded_query": "201 N 9th St, Philadelphia",
+        "geocoded_place_name": "201 North 9th Street, Philadelphia, Pennsylvania 19107, United States",
+        "maptiler_feature_id": "address.22442625",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.154091,
+          39.955304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "name": "Penn Health for Women Washington Square",
+        "rating": 2.8,
+        "reviews": 16,
+        "address": "800 Walnut St 10th Floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "800 Walnut St 10th Floor, Philadelphia",
+        "geocoded_place_name": "800 Walnut Street, Philadelphia, Pennsylvania 19106, United States",
+        "maptiler_feature_id": "address.27268656",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15343999999999,
+          39.94783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "name": "Temple OB/GYN at Roxborough",
+        "rating": 4.5,
+        "reviews": 50,
+        "address": "Jamestown Medical Building, 525 Jamestown Ave. # 107",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "templehealth.org",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Temple Health",
+        "geocoded_query": "Jamestown Medical Building, 525 Jamestown Ave. # 107, Philadelphia",
+        "geocoded_place_name": "Jamestown Avenue, Philadelphia, Pennsylvania 19128, United States",
+        "maptiler_feature_id": "address.22100449",
+        "geocoding_relevance": 0.993889
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.21000780165195,
+          40.028022897696054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "name": "Ludmir Center for Women's Health",
+        "rating": 3.4,
+        "reviews": 20,
+        "address": "Garfield Duncan Building, 700 Spruce St 2nd Floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "Garfield Duncan Building, 700 Spruce St 2nd Floor, Philadelphia",
+        "geocoded_place_name": "700-14 Spruce Street, Philadelphia, Pennsylvania 19106-4007, United States",
+        "maptiler_feature_id": "address.25222229",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15370899999999,
+          39.945193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "name": "Penn Health for Women University City",
+        "rating": 5.0,
+        "reviews": 1,
+        "address": "3737 Market St 12th Floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "3737 Market St 12th Floor, Philadelphia",
+        "geocoded_place_name": "3737 Market Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.25321197",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19759399999998,
+          39.956818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "name": "Rittenhouse Women's Wellness Center",
+        "rating": 3.3,
+        "reviews": 186,
+        "address": "1632 Pine St",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "rwwc.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Rittenhouse Women's Wellness Center",
+        "geocoded_query": "1632 Pine St, Philadelphia",
+        "geocoded_place_name": "1632 Pine Street, Philadelphia, Pennsylvania 19103, United States",
+        "maptiler_feature_id": "address.20010583",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16947700000003,
+          39.945971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "name": "Community Women's Center",
+        "rating": 3.6,
+        "reviews": 96,
+        "address": "1202 Locust St #3",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "cwcamerica.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Community Women's Center",
+        "geocoded_query": "1202 Locust St #3, Philadelphia",
+        "geocoded_place_name": "1202 Locust Street, Philadelphia, Pennsylvania 19107, United States",
+        "maptiler_feature_id": "address.22191026",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16097100000002,
+          39.947599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "name": "Glow Health",
+        "rating": 5.0,
+        "reviews": 3,
+        "address": "1727 Snyder Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "glowhealthbyandrea.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Glow Health",
+        "geocoded_query": "1727 Snyder Ave, Philadelphia",
+        "geocoded_place_name": "1727 Snyder Avenue, Philadelphia, Pennsylvania 19145, United States",
+        "maptiler_feature_id": "address.21204514",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17561,
+          39.925399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "name": "Advocare Stoll Medical Group",
+        "rating": 4.4,
+        "reviews": 1600,
+        "address": "1528 Walnut St #950",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "advocarestollmedicalgroup.com",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Advocare",
+        "geocoded_query": "1528 Walnut St #950, Philadelphia",
+        "geocoded_place_name": "1528 Walnut Street, Philadelphia, Pennsylvania 19102, United States",
+        "maptiler_feature_id": "address.27268656",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16743200000002,
+          39.94965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "name": "Temple Women & Families",
+        "rating": 4.4,
+        "reviews": 11,
+        "address": "1331 E Wyoming Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "templehealth.org",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Temple Health",
+        "geocoded_query": "1331 E Wyoming Ave, Philadelphia",
+        "geocoded_place_name": "1331 East Wyoming Avenue, Philadelphia, Pennsylvania 19124, United States",
+        "maptiler_feature_id": "address.22748728",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.09885700000001,
+          40.019638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "name": "Drexel Ob/Gyn",
+        "rating": 5.0,
+        "reviews": 1,
+        "address": "3401 Market St #105a",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "drexelmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Independent",
+        "geocoded_query": "3401 Market St #105a, Philadelphia",
+        "geocoded_place_name": "3401 Market Street, 3401-15 Market St, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "poi.59945705",
+        "geocoding_relevance": 0.928148
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19177172427544,
+          39.95623874841798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "name": "Kyra C. Williams, MD",
+        "rating": 3.6,
+        "reviews": 5,
+        "address": "3701 Market St",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "3701 Market St, Philadelphia",
+        "geocoded_place_name": "3701 Market Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.25321197",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19604900000002,
+          39.956849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "name": "University Pennsylvania Obstetrics and Gynecology",
+        "rating": 3.7,
+        "reviews": 3,
+        "address": "3400 Civic Center Blvd",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "3400 Civic Center Blvd, Philadelphia",
+        "geocoded_place_name": "3400 Convention Boulevard, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.25128776",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.193241,
+          39.947336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "name": "Mainigi Monica MD",
+        "rating": 5.0,
+        "reviews": 1,
+        "address": "3550 Market St",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "3550 Market St, Philadelphia",
+        "geocoded_place_name": "3550 Market Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.25321197",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19381799999996,
+          39.955962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "name": "Sindhu K. Srinivas, MD, MSCE",
+        "rating": 5.0,
+        "reviews": 1,
+        "address": "2 Silverstein, 3400 Spruce St",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "2 Silverstein, 3400 Spruce St, Philadelphia",
+        "geocoded_place_name": "3400 Spruce Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.23895566",
+        "geocoding_relevance": 0.666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.193197,
+          39.949606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "name": "Albright Dacarla M MD",
+        "rating": 5.0,
+        "reviews": 3,
+        "address": "3701 Market St #100",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "3701 Market St #100, Philadelphia",
+        "geocoded_place_name": "3701 Market Street, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.25321197",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19604900000002,
+          39.956849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "name": "Bala Womens Health",
+        "rating": 3.2,
+        "reviews": 82,
+        "address": "25 Bala Ave Ste 205, Bala Cynwyd, PA 19004",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "balawomenshealth.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Independent",
+        "geocoded_query": "25 Bala Ave Ste 205, Bala Cynwyd, PA 19004, Philadelphia",
+        "geocoded_place_name": "25 Bala Avenue, Lower Merion Township, Pennsylvania 19004, United States",
+        "maptiler_feature_id": "address.21399003",
+        "geocoding_relevance": 0.833333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.22918600000003,
+          40.002057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "name": "Women's Healthcare Specialists - King of Prussia",
+        "rating": 4.9,
+        "reviews": 315,
+        "address": "583 Shoemaker Rd, King of Prussia, PA 19406",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "583 Shoemaker Rd, King of Prussia, PA 19406, Philadelphia",
+        "geocoded_place_name": "Philadelphia Avenue, Upper Merion Township, Pennsylvania 19406, United States",
+        "maptiler_feature_id": "address.27158411",
+        "geocoding_relevance": 0.740741
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3484671190381,
+          40.08149951883591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "name": "Women's Health and Gynecology Darby",
+        "rating": 2.6,
+        "reviews": 17,
+        "address": "Medical Office Bldg, 1501 Lansdowne Ave Ste 302, Darby, PA 19023",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "trinityhealthma.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Trinity Health",
+        "geocoded_query": "Medical Office Bldg, 1501 Lansdowne Ave Ste 302, Darby, PA 19023, Philadelphia",
+        "geocoded_place_name": "Darby Transportation Center, 913 Main Street, Darby, Pennsylvania 19023, United States",
+        "maptiler_feature_id": "poi.58960577",
+        "geocoding_relevance": 0.832857
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2625697106123,
+          39.91895253119622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "name": "AlphaCare",
+        "rating": 4.4,
+        "reviews": 72,
+        "address": "3807 Lancaster Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "alphacarephilly.org",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "AlphaCare",
+        "geocoded_query": "3807 Lancaster Ave, Philadelphia",
+        "geocoded_place_name": "3807 Lancaster Avenue, Philadelphia, Pennsylvania 19104, United States",
+        "maptiler_feature_id": "address.19841233",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19721500000003,
+          39.960635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "name": "CityLife Health",
+        "rating": 4.1,
+        "reviews": 304,
+        "address": "6232 Market St 1st Floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "citylifehealth.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "CityLife Health",
+        "geocoded_query": "6232 Market St 1st Floor, Philadelphia",
+        "geocoded_place_name": "6232 Market Street, Philadelphia, Pennsylvania 19139, United States",
+        "maptiler_feature_id": "address.25321197",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.24627900000002,
+          39.962028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "name": "Jefferson OB/GYN - Methodist",
+        "rating": 5.0,
+        "reviews": 1,
+        "address": "1302 Wolf St",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "1302 Wolf St, Philadelphia",
+        "geocoded_place_name": "Wolf Street, Philadelphia, Pennsylvania 19148, United States",
+        "maptiler_feature_id": "address.26963571",
+        "geocoding_relevance": 0.993889
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15950784087181,
+          39.920525701808515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "name": "Penn Ob/Gyn and Midwifery South Philadelphia",
+        "rating": 0.0,
+        "reviews": 0,
+        "address": "Constitution Health Plaza, Ground Level, 1930 S Broad St Unit 14",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "pennmedicine.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "University of Pennsylvania Health System",
+        "geocoded_query": "Constitution Health Plaza, Ground Level, 1930 S Broad St Unit 14, Philadelphia",
+        "geocoded_place_name": "1930 South Broad Street, Philadelphia, Pennsylvania 19145, United States",
+        "maptiler_feature_id": "address.24766836",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17024200000003,
+          39.926551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "name": "Kramer OB/GYN & Associates",
+        "rating": 4.7,
+        "reviews": 560,
+        "address": "7390 Bustleton Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "redeemerhealth.org",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Redeemer Health",
+        "geocoded_query": "7390 Bustleton Ave, Philadelphia",
+        "geocoded_place_name": "Bustleton Avenue, Philadelphia, Pennsylvania 19115, United States",
+        "maptiler_feature_id": "address.19633842",
+        "geocoding_relevance": 0.993889
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.04429254680872,
+          40.07693955244904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "name": "Cherry Hill OB/GYN - Turnersville",
+        "rating": 4.9,
+        "reviews": 494,
+        "address": "Pavilions, 188 Fries Mill Rd STE B1",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "Pavilions, 188 Fries Mill Rd STE B1, Philadelphia",
+        "geocoded_place_name": "188 Fries Mill Road, Washington Township, New Jersey 08012, United States",
+        "maptiler_feature_id": "address.25079112",
+        "geocoding_relevance": 0.816667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.046944,
+          39.736401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "name": "Lifecycle Wellness and Birth Center",
+        "rating": 4.4,
+        "reviews": 37,
+        "address": "1214 Moore St",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "lifecyclewellness.org",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Lifecycle Wellness",
+        "geocoded_query": "1214 Moore St, Philadelphia",
+        "geocoded_place_name": "1214 Moore Street, Philadelphia, Pennsylvania 19148, United States",
+        "maptiler_feature_id": "address.26592328",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16573199999999,
+          39.927504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "name": "Obstetrics & Gynecology Associates - Sewell",
+        "rating": 4.6,
+        "reviews": 614,
+        "address": "247 Hurffville - Cross Keys Rd Suite 1-C",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "247 Hurffville - Cross Keys Rd Suite 1-C, Philadelphia",
+        "geocoded_place_name": "County Road 654, Washington Township, New Jersey 08080, United States",
+        "maptiler_feature_id": "address.24364401",
+        "geocoding_relevance": 0.817593
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.07099226117134,
+          39.73707632829802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "name": "Athena OB/GYN - Abington",
+        "rating": 4.8,
+        "reviews": 184,
+        "address": "1245 Highland Ave Price Building, #404",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "1245 Highland Ave Price Building, #404, Philadelphia",
+        "geocoded_place_name": "Price Building, 1226 Highland Avenue, Abington Township, Pennsylvania 19001, United States",
+        "maptiler_feature_id": "poi.60299198",
+        "geocoding_relevance": 0.72963
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.12089863951718,
+          40.119655294968545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "properties": {
+        "name": "Associates In Women's Health",
+        "rating": 0.0,
+        "reviews": 0,
+        "address": "2301 S Broad St # 102",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jefferson.edu",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "2301 S Broad St # 102, Philadelphia",
+        "geocoded_place_name": "2301 South Broad Street, Philadelphia, Pennsylvania 19148, United States",
+        "maptiler_feature_id": "address.24766836",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17033000000004,
+          39.92083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "properties": {
+        "name": "Temple OB/GYN at Temple Women & Families",
+        "rating": 3.4,
+        "reviews": 27,
+        "address": "1331 E Wyoming Ave 5th Floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "templehealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Temple Health",
+        "geocoded_query": "1331 E Wyoming Ave 5th Floor, Philadelphia",
+        "geocoded_place_name": "1331 East Wyoming Avenue, Philadelphia, Pennsylvania 19124, United States",
+        "maptiler_feature_id": "address.22748728",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.09885700000001,
+          40.019638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "properties": {
+        "name": "Temple OB/GYN at Episcopal",
+        "rating": 2.5,
+        "reviews": 15,
+        "address": "Comprehensive Health Center, 100 E Lehigh Ave 2nd Floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "templehealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Temple Health",
+        "geocoded_query": "Comprehensive Health Center, 100 E Lehigh Ave 2nd Floor, Philadelphia",
+        "geocoded_place_name": "100 East Lehigh Avenue, Philadelphia, Pennsylvania 19125, United States",
+        "maptiler_feature_id": "address.25095156",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.12913200000003,
+          39.989811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "properties": {
+        "name": "Temple Women's Care at Northeastern",
+        "rating": 2.5,
+        "reviews": 19,
+        "address": "2301 E. Allegheny Avenue",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "templehealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Temple Health",
+        "geocoded_query": "2301 E. Allegheny Avenue, Philadelphia",
+        "geocoded_place_name": "2301 East Allegheny Avenue, Philadelphia, Pennsylvania 19134, United States",
+        "maptiler_feature_id": "address.20191745",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.10596399999997,
+          39.990156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "properties": {
+        "name": "Jefferson OB/GYN - Paley",
+        "rating": 2.7,
+        "reviews": 45,
+        "address": "5501 Old York Rd, Paley Building, 3rd Floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "5501 Old York Rd, Paley Building, 3rd Floor, Philadelphia",
+        "geocoded_place_name": "5501 Old York Road, Philadelphia, Pennsylvania 19141, United States",
+        "maptiler_feature_id": "address.23647564",
+        "geocoding_relevance": 0.780423
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.142179,
+          40.0369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "properties": {
+        "name": "Kramer & Associates OBGYN",
+        "rating": 4.8,
+        "reviews": 251,
+        "address": "821 Huntingdon Pike # 140",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "redeemerhealth.org",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Redeemer Health",
+        "geocoded_query": "821 Huntingdon Pike # 140, Philadelphia",
+        "geocoded_place_name": "821 Huntingdon Pike, Abington Township, Pennsylvania 19006, United States",
+        "maptiler_feature_id": "address.24588104",
+        "geocoding_relevance": 0.805556
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.09319800000003,
+          40.089419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "properties": {
+        "name": "Jefferson OB/GYN - Olney",
+        "rating": 2.2,
+        "reviews": 19,
+        "address": "101 E Olney Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "101 E Olney Ave, Philadelphia",
+        "geocoded_place_name": "101 East Olney Avenue, Philadelphia, Pennsylvania 19120, United States",
+        "maptiler_feature_id": "address.22930660",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.119887,
+          40.035734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "properties": {
+        "name": "Jefferson OB/GYN - Klein",
+        "rating": 2.4,
+        "reviews": 29,
+        "address": "5401 Old York Rd Suite 410",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "5401 Old York Rd Suite 410, Philadelphia",
+        "geocoded_place_name": "5401 Old York Road, Philadelphia, Pennsylvania 19141, United States",
+        "maptiler_feature_id": "address.23647564",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.140262,
+          40.03687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "properties": {
+        "name": "Jefferson OB/GYN - Mayfair",
+        "rating": 3.5,
+        "reviews": 23,
+        "address": "7131 Frankford Ave 2nd floor",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "7131 Frankford Ave 2nd floor, Philadelphia",
+        "geocoded_place_name": "7131 Frankford Avenue, Philadelphia, Pennsylvania 19135, United States",
+        "maptiler_feature_id": "address.21201476",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.04344100000003,
+          40.035195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "properties": {
+        "name": "Arleen Ayala-Crespo",
+        "rating": 5.0,
+        "reviews": 2,
+        "address": "2301 E Allegheny Ave #180",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "unknown",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Independent",
+        "geocoded_query": "2301 E Allegheny Ave #180, Philadelphia",
+        "geocoded_place_name": "2301 East Allegheny Avenue, Philadelphia, Pennsylvania 19134, United States",
+        "maptiler_feature_id": "address.20191745",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.10596399999997,
+          39.990156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "properties": {
+        "name": "Parkview Health Center",
+        "rating": 3.1,
+        "reviews": 33,
+        "address": "841 E Hunting Park Ave # 120",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "dvch.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Delaware Valley Community Health",
+        "geocoded_query": "841 E Hunting Park Ave # 120, Philadelphia",
+        "geocoded_place_name": "841 East Hunting Park Avenue, Philadelphia, Pennsylvania 19124, United States",
+        "maptiler_feature_id": "address.22540677",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.11034699999999,
+          40.012075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "properties": {
+        "name": "Dr. Deslyn Mancini's Women's Care",
+        "rating": 4.3,
+        "reviews": 75,
+        "address": "1000 S Easton Rd Suite 280, Wyncote, PA 19012",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "unknown",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Independent",
+        "geocoded_query": "1000 S Easton Rd Suite 280, Wyncote, PA 19012, Philadelphia",
+        "geocoded_place_name": "1000 South Easton Road, Cheltenham Township, Pennsylvania 19095, United States",
+        "maptiler_feature_id": "address.26208288",
+        "geocoding_relevance": 0.666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.167595,
+          40.082634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "properties": {
+        "name": "Millennium OB/GYN",
+        "rating": 4.5,
+        "reviews": 476,
+        "address": "9807 Bustleton Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "redeemerhealth.org",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Redeemer Health",
+        "geocoded_query": "9807 Bustleton Ave, Philadelphia",
+        "geocoded_place_name": "9807 Bustleton Avenue, Philadelphia, Pennsylvania 19115, United States",
+        "maptiler_feature_id": "address.19633842",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.03254500000003,
+          40.089682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "properties": {
+        "name": "Redeemer Health OB/GYN-Meadowbrook",
+        "rating": 4.6,
+        "reviews": 247,
+        "address": "1650 Huntingdon Pike Ste 118, Meadowbrook, PA 19046",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "redeemerhealth.org",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Redeemer Health",
+        "geocoded_query": "1650 Huntingdon Pike Ste 118, Meadowbrook, PA 19046, Philadelphia",
+        "geocoded_place_name": "1650 Huntingdon Pike, Abington Township, Pennsylvania 19006, United States",
+        "maptiler_feature_id": "address.24588104",
+        "geocoding_relevance": 0.738095
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.08185700000001,
+          40.110343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "properties": {
+        "name": "MARIA DE LOS SANTOS WOMENS HEALTH",
+        "rating": 3.1,
+        "reviews": 18,
+        "address": "400 W Allegheny Ave Building #3",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "dvch.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Delaware Valley Community Health",
+        "geocoded_query": "400 W Allegheny Ave Building #3, Philadelphia",
+        "geocoded_place_name": "NewCourtland Philadelphia Senior Center: Apartments at Allegheny, 1900 W Allegheny Avenue, Philadelphia, Pennsylvania 19132, United States",
+        "maptiler_feature_id": "poi.57311224",
+        "geocoding_relevance": 0.771481
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16072682505563,
+          40.00208788407952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "properties": {
+        "name": "CityLife Health - Frankford",
+        "rating": 4.4,
+        "reviews": 270,
+        "address": "5000 Frankford Ave Suite D",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "citylifehealth.com",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "CityLife Health",
+        "geocoded_query": "5000 Frankford Ave Suite D, Philadelphia",
+        "geocoded_place_name": "5000 Frankford Avenue, Philadelphia, Pennsylvania 19124, United States",
+        "maptiler_feature_id": "address.21201476",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.080329,
+          40.020849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "properties": {
+        "name": "CityLife Health",
+        "rating": 4.2,
+        "reviews": 411,
+        "address": "1010 W Lehigh Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "citylifehealth.com",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "CityLife Health",
+        "geocoded_query": "1010 W Lehigh Ave, Philadelphia",
+        "geocoded_place_name": "1010 W Lehigh Avenue, Philadelphia, Pennsylvania 19133, United States",
+        "maptiler_feature_id": "address.29221034",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.148642,
+          39.99277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "properties": {
+        "name": "Jefferson OB/GYN - Lawndale",
+        "rating": 2.6,
+        "reviews": 49,
+        "address": "7201 Rising Sun Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "7201 Rising Sun Ave, Philadelphia",
+        "geocoded_place_name": "7201 Rising Sun Avenue, Philadelphia, Pennsylvania 19111, United States",
+        "maptiler_feature_id": "address.22017125",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.08556299999998,
+          40.059404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "properties": {
+        "name": "Jefferson OB/GYN - Fox Chase",
+        "rating": 3.4,
+        "reviews": 21,
+        "address": "7996 Oxford Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "7996 Oxford Ave, Philadelphia",
+        "geocoded_place_name": "7996 Oxford Avenue, Philadelphia, Pennsylvania 19111-2241, United States",
+        "maptiler_feature_id": "address.20877400",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.08610299999998,
+          40.077539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "properties": {
+        "name": "Jefferson OB/GYN - Torresdale",
+        "rating": 4.3,
+        "reviews": 18,
+        "address": "3998 Red Lion Rd #106",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "3998 Red Lion Rd #106, Philadelphia",
+        "geocoded_place_name": "Red Lion Road, New Castle, Delaware 19701, United States",
+        "maptiler_feature_id": "address.23845284",
+        "geocoding_relevance": 0.810333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.69713551551104,
+          39.57127227533728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "properties": {
+        "name": "Joel Kramer, DO",
+        "rating": 4.9,
+        "reviews": 128,
+        "address": "821 Huntingdon Pike #130",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "redeemerhealth.org",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Redeemer Health",
+        "geocoded_query": "821 Huntingdon Pike #130, Philadelphia",
+        "geocoded_place_name": "821 Huntingdon Pike, Abington Township, Pennsylvania 19006, United States",
+        "maptiler_feature_id": "address.24588104",
+        "geocoding_relevance": 0.805556
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.09319800000003,
+          40.089419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "properties": {
+        "name": "Jefferson OB/GYN - Huntingdon Valley",
+        "rating": 3.1,
+        "reviews": 34,
+        "address": "2301 Huntingdon Pike",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "2301 Huntingdon Pike, Philadelphia",
+        "geocoded_place_name": "2301 Huntingdon Pike, Lower Moreland Township, Pennsylvania 19006, United States",
+        "maptiler_feature_id": "address.24588613",
+        "geocoding_relevance": 0.805556
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.06672200000003,
+          40.119674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "properties": {
+        "name": "Jefferson OB/GYN - Jenkintown",
+        "rating": 3.1,
+        "reviews": 43,
+        "address": "201 Old York Rd #202, Jenkintown, PA 19046",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "201 Old York Rd #202, Jenkintown, PA 19046, Philadelphia",
+        "geocoded_place_name": "Old York Road, Jenkintown, Pennsylvania 19046, United States",
+        "maptiler_feature_id": "address.23647788",
+        "geocoding_relevance": 0.83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.12578375637531,
+          40.095528703247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "properties": {
+        "name": "Natural Womens Health LLC",
+        "rating": 3.8,
+        "reviews": 55,
+        "address": "727 Welsh Rd # 101",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "naturalwomenshealth.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Independent",
+        "geocoded_query": "727 Welsh Rd # 101, Philadelphia",
+        "geocoded_place_name": "Welsh Road, Philadelphia, Pennsylvania 19115, United States",
+        "maptiler_feature_id": "address.22487694",
+        "geocoding_relevance": 0.993889
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.03542516380548,
+          40.07506237376266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "properties": {
+        "name": "Dr. Hema Jonnalagadda M.D. Advocare Montgomery Gynecology",
+        "rating": 4.7,
+        "reviews": 206,
+        "address": "115 Plymouth Rd Suite#5, Plymouth Meeting, PA 19462",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "advocaremontgomerygyn.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Advocare",
+        "geocoded_query": "115 Plymouth Rd Suite#5, Plymouth Meeting, PA 19462, Philadelphia",
+        "geocoded_place_name": "SpringHill Suites Philadelphia Plymouth Meeting, 430 Plymouth Road, Plymouth Township, Pennsylvania 19462, United States",
+        "maptiler_feature_id": "poi.57256774",
+        "geocoding_relevance": 0.84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.28765954708138,
+          40.11346419378163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "properties": {
+        "name": "Jefferson OB/GYN - Germantown",
+        "rating": 2.9,
+        "reviews": 49,
+        "address": "5753 Wayne Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "5753 Wayne Ave, Philadelphia",
+        "geocoded_place_name": "5753 Wayne Avenue, Philadelphia, Pennsylvania 19144, United States",
+        "maptiler_feature_id": "address.24216118",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17978399999998,
+          40.03267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "properties": {
+        "name": "Main Line HealthCare OB/GYN Roxborough - Ridge Avenue",
+        "rating": 3.0,
+        "reviews": 4,
+        "address": "7116 Ridge Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "mainlinehealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Main Line Health",
+        "geocoded_query": "7116 Ridge Ave, Philadelphia",
+        "geocoded_place_name": "7116 Ridge Avenue, Philadelphia, Pennsylvania 19128, United States",
+        "maptiler_feature_id": "address.22191200",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.23125700000003,
+          40.044195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "properties": {
+        "name": "Main Line OB/GYN - Strafford",
+        "rating": 4.8,
+        "reviews": 252,
+        "address": "85 Old Eagle School Rd, Strafford, PA 19087",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "85 Old Eagle School Rd, Strafford, PA 19087, Philadelphia",
+        "geocoded_place_name": "Strafford, 85 Old Eagle School Road, Tredyffrin Township, Pennsylvania 19087, United States",
+        "maptiler_feature_id": "poi.58960153",
+        "geocoding_relevance": 0.909753
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.40375716984272,
+          40.04970602948385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "properties": {
+        "name": "Lynda T. Thomas - Mabine, MD",
+        "rating": 4.1,
+        "reviews": 34,
+        "address": "8815 Germantown Ave Suite 20",
+        "city": "Philadelphia",
+        "entity": "provider",
+        "website": "templehealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Temple Health",
+        "geocoded_query": "8815 Germantown Ave Suite 20, Philadelphia",
+        "geocoded_place_name": "Germantown Avenue, Philadelphia, Pennsylvania 19144, United States",
+        "maptiler_feature_id": "address.25930412",
+        "geocoding_relevance": 0.993889
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17342548817396,
+          40.03478588330137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "properties": {
+        "name": "Athena OB/GYN - Horsham",
+        "rating": 4.9,
+        "reviews": 712,
+        "address": "300 Welsh Rd Bldg 3, Suite 120, Horsham, PA 19044",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "300 Welsh Rd Bldg 3, Suite 120, Horsham, PA 19044, Philadelphia",
+        "geocoded_place_name": "300 Welsh Road, Horsham Township, Pennsylvania 19044, United States",
+        "maptiler_feature_id": "address.24489589",
+        "geocoding_relevance": 0.666667
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.15118100000001,
+          40.162389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "properties": {
+        "name": "The Balanced Woman",
+        "rating": 5.0,
+        "reviews": 135,
+        "address": "233 E Lancaster Ave #103, Ardmore, PA 19003",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "thebalancedwoman.com",
+        "trust_tier": "high",
+        "specialty": "OBGYN",
+        "organization": "The Balanced Woman",
+        "geocoded_query": "233 E Lancaster Ave #103, Ardmore, PA 19003, Philadelphia",
+        "geocoded_place_name": "East Lancaster Avenue, Lower Merion Township, Pennsylvania 19003, United States",
+        "maptiler_feature_id": "address.24532970",
+        "geocoding_relevance": 0.83
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.28822168707848,
+          40.00647514541153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "properties": {
+        "name": "Alternative Healthcare for Women - Iris Wolfson - CNM, CRNP",
+        "rating": 4.9,
+        "reviews": 15,
+        "address": "133 W Phil Ellena St",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "iriswolfson.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Iris Wolfson",
+        "geocoded_query": "133 W Phil Ellena St, Philadelphia",
+        "geocoded_place_name": "133 West Phil Ellena Street, Philadelphia, Pennsylvania 19119, United States",
+        "maptiler_feature_id": "address.26480340",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.18775399999998,
+          40.049574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "properties": {
+        "name": "Women Wise Holistic Healthcare and Wellness",
+        "rating": 5.0,
+        "reviews": 7,
+        "address": "7350 Ridge Ave Suite A",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "womenwisehealthcare.com",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Women Wise Holistic Healthcare",
+        "geocoded_query": "7350 Ridge Ave Suite A, Philadelphia",
+        "geocoded_place_name": "7350 Ridge Avenue, Philadelphia, Pennsylvania 19128, United States",
+        "maptiler_feature_id": "address.22191200",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.23454700000002,
+          40.046937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "properties": {
+        "name": "Center for Total Women's health",
+        "rating": 4.4,
+        "reviews": 226,
+        "address": "1777 Sentry Pkwy W, Blue Bell, PA 19422",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "axiawh.com",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Axia Women's Health",
+        "geocoded_query": "1777 Sentry Pkwy W, Blue Bell, PA 19422, Philadelphia",
+        "geocoded_place_name": "1777 Sentry Parkway West, Whitpain Township, Pennsylvania 19422, United States",
+        "maptiler_feature_id": "address.25783313",
+        "geocoding_relevance": 0.839506
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.27745299999998,
+          40.133144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "properties": {
+        "name": "Philadelphia Midwife Collective",
+        "rating": 4.3,
+        "reviews": 26,
+        "address": "6837 Germantown Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "philadelphiamidwifecollective.org",
+        "trust_tier": "mid",
+        "specialty": "OBGYN",
+        "organization": "Independent",
+        "geocoded_query": "6837 Germantown Ave, Philadelphia",
+        "geocoded_place_name": "6837-39 Germantown Avenue, Philadelphia, Pennsylvania 19119, United States",
+        "maptiler_feature_id": "address.25930412",
+        "geocoding_relevance": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.18676399999998,
+          40.055423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "properties": {
+        "name": "Jefferson OB/GYN � Norristown",
+        "rating": 3.2,
+        "reviews": 25,
+        "address": "1330 Powell St Ste 507, Norristown, PA 19401",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "jeffersonhealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Jefferson Health",
+        "geocoded_query": "1330 Powell St Ste 507, Norristown, PA 19401, Philadelphia",
+        "geocoded_place_name": "1330 Powell Street, Norristown, Pennsylvania 19401, United States",
+        "maptiler_feature_id": "address.22024429",
+        "geocoding_relevance": 0.825397
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.33643899999998,
+          40.123221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "properties": {
+        "name": "Main Line HealthCare Medicine for Women",
+        "rating": 3.7,
+        "reviews": 15,
+        "address": "915 Montgomery Ave 4th Floor, Narberth, PA 19072",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "mainlinehealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Main Line Health",
+        "geocoded_query": "915 Montgomery Ave 4th Floor, Narberth, PA 19072, Philadelphia",
+        "geocoded_place_name": "Montgomery Avenue, Narberth, Pennsylvania 19072, United States",
+        "maptiler_feature_id": "address.19650260",
+        "geocoding_relevance": 0.822381
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.256955511868,
+          40.01025223264572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "properties": {
+        "name": "Women's Health at Chestnut Hill Hospital",
+        "rating": 3.4,
+        "reviews": 5,
+        "address": "8811 Germantown Ave",
+        "city": "Philadelphia",
+        "entity": "practice",
+        "website": "templehealth.org",
+        "trust_tier": "low",
+        "specialty": "OBGYN",
+        "organization": "Temple Health",
+        "geocoded_query": "8811 Germantown Ave, Philadelphia",
+        "geocoded_place_name": "Germantown Avenue, Philadelphia, Pennsylvania 19144, United States",
+        "maptiler_feature_id": "address.25930412",
+        "geocoding_relevance": 0.993889
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17342548817396,
+          40.03478588330137
+        ]
+      }
+    }
+  ]
+}

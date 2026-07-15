@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OBGYN Providers Map</title>
+
+<script src="https://cdn.maptiler.com/maptiler-sdk-js/v2.5.1/maptiler-sdk.umd.min.js"></script>
+<link href="https://cdn.maptiler.com/maptiler-sdk-js/v2.5.1/maptiler-sdk.css" rel="stylesheet" />
+
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* Popup box styling */
+  .maplibregl-popup-content {
+    padding: 16px 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+    max-width: 280px;
+  }
+
+  .popup-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+    color: #111;
+  }
+
+  .popup-row {
+    font-size: 13px;
+    color: #333;
+    margin: 3px 0;
+    line-height: 1.4;
+  }
+
+  .popup-row span.label {
+    font-weight: 600;
+    color: #555;
+  }
+
+  .popup-badge {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+
+  .tier-high   { background: #dcf5e3; color: #1a7f37; }
+  .tier-mid    { background: #fff2cc; color: #9a6700; }
+  .tier-low    { background: #fde2e1; color: #c62828; }
+
+  .popup-link {
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #007cbf;
+    text-decoration: none;
+  }
+  .popup-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script>
+  // ------------------------------------------------------------------
+  // 1. Set your MapTiler API key here
+  //    Get one free at https://cloud.maptiler.com/account/keys/
+  // ------------------------------------------------------------------
+  maptilersdk.config.apiKey = 'YOUR_MAPTILER_API_KEY';
+
+  const map = new maptilersdk.Map({
+    container: 'map',
+    style: maptilersdk.MapStyle.STREETS,
+    center: [-75.3648, 39.8668], // centered on the data
+    zoom: 9.5
+  });
+
+  map.on('load', async () => {
+
+    // ----------------------------------------------------------------
+    // 2. Load the GeoJSON (relative path -> works on GitHub Pages
+    //    as long as data.geojson sits next to this index.html)
+    // ----------------------------------------------------------------
+    map.addSource('providers', {
+      type: 'geojson',
+      data: 'data.geojson'
+    });
+
+    // ----------------------------------------------------------------
+    // 3. Circle layer, colored by trust_tier
+    // ----------------------------------------------------------------
+    map.addLayer({
+      id: 'providers-circles',
+      type: 'circle',
+      source: 'providers',
+      paint: {
+        'circle-radius': [
+          'interpolate', ['linear'], ['zoom'],
+          8, 4,
+          14, 9
+        ],
+        'circle-color': [
+          'match', ['get', 'trust_tier'],
+          'high', '#1a7f37',
+          'mid',  '#c98f00',
+          'low',  '#c62828',
+          '#888888'
+        ],
+        'circle-stroke-width': 1.5,
+        'circle-stroke-color': '#ffffff'
+      }
+    });
+
+    // ----------------------------------------------------------------
+    // 4. Click a circle -> open popup box with its GeoJSON data
+    // ----------------------------------------------------------------
+    map.on('click', 'providers-circles', (e) => {
+      const feature = e.features[0];
+      const p = feature.properties;
+      const coordinates = feature.geometry.coordinates.slice();
+
+      const tierClass = p.trust_tier === 'high' ? 'tier-high'
+                       : p.trust_tier === 'mid'  ? 'tier-mid'
+                       : p.trust_tier === 'low'  ? 'tier-low' : '';
+
+      const html = `
+        <div class="popup-title">${escapeHtml(p.name)}</div>
+        <div class="popup-row"><span class="label">Organization:</span> ${escapeHtml(p.organization || '—')}</div>
+        <div class="popup-row"><span class="label">Specialty:</span> ${escapeHtml(p.specialty || '—')}</div>
+        <div class="popup-row"><span class="label">Address:</span> ${escapeHtml(p.address || '—')}, ${escapeHtml(p.city || '')}</div>
+        <div class="popup-row"><span class="label">Rating:</span> ${p.rating ?? '—'} ⭐ (${p.reviews ?? 0} reviews)</div>
+        ${p.website ? `<a class="popup-link" href="https://${p.website}" target="_blank" rel="noopener">${escapeHtml(p.website)}</a>` : ''}
+        ${tierClass ? `<span class="popup-badge ${tierClass}">${escapeHtml(p.trust_tier)} trust</span>` : ''}
+      `;
+
+      new maptilersdk.Popup({ closeButton: true, maxWidth: '300px' })
+        .setLngLat(coordinates)
+        .setHTML(html)
+        .addTo(map);
+    });
+
+    // Pointer cursor on hover
+    map.on('mouseenter', 'providers-circles', () => {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'providers-circles', () => {
+      map.getCanvas().style.cursor = '';
+    });
+  });
+
+  // Small helper to avoid HTML injection issues from data fields
+  function escapeHtml(str) {
+    if (str === undefined || str === null) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+</script>
+
+</body>
+</html>
